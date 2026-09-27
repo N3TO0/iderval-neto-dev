@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	text-decoration: none;
 }
-a {
+a,picture {
     display: inline-flex;
   }
 
