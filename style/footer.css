@@ -1,0 +1,40 @@
+.footer-primary {
+  width: 100%;
+  height: 12vw;
+  background-color: var(--text-secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-weight: 200;
+    font-size: 3.2vw;
+    color: var(--text-primary-color);
+  }
+}
+
+@media (min-width: 500px) {
+  .footer-primary {
+    width: 80%;
+    height: 6vw;
+    background-color: var(--text-secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    p {
+      font-weight: 200;
+      font-size: 1.8vw;
+      color: var(--text-primary-color);
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer-primary {
+    height: 4.5vw;
+    p {
+      font-weight: 200;
+      font-size: 1.2vw
+    }
+  }
+}
