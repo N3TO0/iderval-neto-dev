@@ -34,7 +34,18 @@
     height: 4.5vw;
     p {
       font-weight: 200;
-      font-size: 1.2vw
+      font-size: 1.2vw;
+    }
+  }
+}
+@media (min-width: 1000px) {
+  .footer-primary {
+    width: 84%;
+    margin-left: 16%;
+    height: 3vw;
+    p {
+      font-weight: 200;
+      font-size: 1vw;
     }
   }
 }

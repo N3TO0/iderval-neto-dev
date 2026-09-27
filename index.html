@@ -22,25 +22,70 @@
     <title>Neto Dev</title>
   </head>
   <body>
-    <header></header>
-    <main>
-      <section id="#home" class="section section-home">
+    <header class="header-primary">
+      <button>
+        <img
+          class="icon-hamburguer"
+          src="src/icons/icon-hamburguer-in.png"
+          alt="icone de opcoes de navegação"
+        />
+      </button>
 
+      <img
+        class="img-dev-nav"
+        src="src/img/img-dev-animation-nav-descktop.png"
+        alt="imagem animada do desenvoldedor iderval neto mexendo no computador."
+      />
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" class="button-1">
+              <div class="button-2 bthome-2">Início</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="button-1">
+              <div class="button-2 bthome-2">Sobre mim</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#technology" class="button-1">
+              <div class="button-2 bthome-2">Tecnologias</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#services" class="button-1">
+              <div class="button-2 ">Serviços</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="button-1 ">
+              <div class="button-2">Contate-me</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="section section-home">
         <article class="card-home">
           <header>
-            <picture>
-              <source media="(min-width:500px)" srcset="" />
-              <img
-                src="/src/img/img-dev-animation-home.png"
-                alt="imagem animada do desenvoldedor iderval neto mexendo no computador."
-              />
-            </picture>
+            <img
+              src="/src/img/img-dev-animation-home.png"
+              alt="imagem animada do desenvoldedor iderval neto mexendo no computador."
+            />
             <h1>IDERVAL NETO</h1>
             <p>Desenvolvedor Full Stack</p>
           </header>
+
           <footer>
-            <a href="" class="contact-button-1 bthome-1">
-                <div class="contact-button-2 bthome-2">Contate-me</div>
+            <a href="" class="button-1 bthome-1">
+              <div class="button-2 bthome-2">Contate-me</div>
             </a>
           </footer>
         </article>
@@ -54,18 +99,19 @@
             </p>
           </footer>
         </article>
-
       </section>
-      
-      <section id="#about"><h2 class="titleSection">Sobre mim</h2></section>
 
-      <section id="#technology">
+      <section id="about"><h2 class="titleSection">Sobre mim</h2></section>
+
+      <section id="technology">
         <h2 class="titleSection">Tecnologias</h2>
       </section>
 
-      <section id="#services"><h2 class="titleSection">Serviços</h2></section>
+      <section id="services"><h2 class="titleSection">Serviços</h2></section>
     </main>
-    
-    <footer class="footer-primary"><p>© 2026 Iderval Neto | Todos os direitos reservados.</p></footer>
+
+    <footer class="footer-primary">
+      <p>© 2026 Iderval Neto | Todos os direitos reservados.</p>
+    </footer>
   </body>
 </html>
