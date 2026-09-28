@@ -161,7 +161,7 @@ header {
         display: grid;
         grid-row: 1fr;
         grid-column: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 9.5vh 9.5vh 9.5vh 9.5vh 9.5vh;
         padding-top: 0vw;
         gap: 0vw;
         .button-1 {
