@@ -19,6 +19,7 @@
     display: none;
   }
 }
+
 /* Menu hamburguer Selecionado */
 .header-primary-select {
   background-image: linear-gradient(155deg, #28156e, #ffffff);
@@ -27,9 +28,6 @@
   border-radius: 0px 0px 6vw 6vw;
   position: fixed;
   z-index: 9999;
-  .bt-contact {
-    display: none;
-  }
   button {
     background-color: rgba(255, 255, 255, 0);
     border: 0px;
@@ -39,6 +37,9 @@
     img {
       width: 8vw;
     }
+  }
+  #bt-contact {
+    display: none;
   }
   .img-dev-nav {
     display: none;
@@ -136,6 +137,7 @@ header {
   button {
     display: none;
   }
+
   .header-primary {
     background-color: var(--fourth-color);
     width: 20%;
@@ -179,6 +181,11 @@ header {
           }
         }
         .button-1:hover {
+          .button-2 {
+            background-color: #ffffffbd;
+          }
+        }
+        .button-1:active {
           border-radius: 16px;
           padding: 0.3vw 0.3vw;
           padding-bottom: 0.6vw;
@@ -187,11 +194,6 @@ header {
             border-radius: 12px;
             padding: 0.6vw 1vw;
             font-size: 1vw;
-          }
-        }
-        .button-1:active {
-          .button-2 {
-            background-color: #ffffffbd;
           }
         }
       }
