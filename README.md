@@ -18,4 +18,4 @@
 - Apresentação sobre quem sou e minha trajetória.
 - Vitrine de serviços oferecidos.
 - Galeria de projetos com links interativos e repositórios.
-- Formulário ou botões diretos de contato.
+- Botões diretos de contato.
