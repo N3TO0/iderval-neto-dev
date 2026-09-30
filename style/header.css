@@ -90,7 +90,7 @@
   .header-primary-select {
     background-image: linear-gradient(135deg, #28156e, #ffffff);
     width: 100%;
-    height: 75vw;
+    height: 80vw;
     border-radius: 0px 0px 4vw 4vw;
     position: fixed;
     z-index: 9999;
@@ -108,13 +108,25 @@
       }
     }
     ul {
-      padding-top: 15vw;
+      padding-top: 4vw;
       justify-content: center;
       align-items: center;
       display: flex;
       flex-direction: column;
-      gap: 5vw;
+      gap: 2.5vw;
     }
+    .button-1 {
+    padding: 1vw 1.2vw 3vw 1.2vw;
+    .button-2 {
+      width: 26vw;
+      border-radius: 2vw;
+      padding: 2.2vw 3vw;
+      color: #28156ed8;
+      text-align: center;
+      font-weight: 900;
+      font-size: 3vw;
+    }
+  }
   }
   header {
     ul {

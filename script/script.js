@@ -1,26 +1,41 @@
+// Funcão para selecionar elemento html
+function select(tag) {
+  return document.querySelector(tag);
+}
+
 // Botão menu para mobile
-const menuBt = document.querySelector(".menuBt");
+const menuBt = select(".menuBt");
 
 // Header
-const menu = document.querySelector("#menu");
+const menu = select("#menu");
 
 // Ativação do menu mobile
-let menuDisabled = true;
+let menuIsOpen = false;
 
-// Evento para ativação do menu mobile
-menuBt.addEventListener("click", () => {
-  if (menuDisabled) {
-    menu.classList.remove("header-primary");
-    menu.classList.add("header-primary-select");
-    menuDisabled = false;
-    console.log(menuDisabled);
-
-  } else {
+// Função para tivação ou desativação do menu mobile
+function menuSelected() {
+  if (menuIsOpen) {
     menu.classList.remove("header-primary-select");
     menu.classList.add("header-primary");
-    menuDisabled = true;
-    console.log(menuDisabled);
-
+    menuIsOpen = false;
+  } else {
+    menu.classList.remove("header-primary");
+    menu.classList.add("header-primary-select");
+    menuIsOpen = true;
   }
-});
+}
 
+// Evendo de clique no menu hamburguer
+menuBt.addEventListener("click", menuSelected);
+
+// Botões nav
+const navButtons = document.querySelectorAll(".navBt");
+
+// Evento para desativar o menu selecionado se os botões do nav forem clicados
+navButtons.forEach((bt) => {
+  bt.addEventListener("click", () => {
+    if (menuIsOpen) {
+      menuSelected();
+    }
+  });
+});
