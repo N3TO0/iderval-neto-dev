@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: linear-gradient(110deg, #131313, #3617a8);
-  --secondary-color: linear-gradient(100deg, #28156ed8, #ffffffbb);
+  --secondary-color: linear-gradient(100deg, #29156E, #ffffffbd);
   --tertiary-color: linear-gradient(110deg, #d9d9d9, #3717a8);
   --fourth-color: #ffffff;
 
@@ -18,7 +18,7 @@ html {
   color: var(--text-primary-color);
   border-bottom: 1.5vw solid rgba(255, 255, 255, 0.582);
   padding-bottom: 2vw;
-  margin-bottom: 3vw;
+  margin-bottom: 10vw;
   font-size: 8vw;
   font-weight: 600;
 }
@@ -68,7 +68,7 @@ a {
   .titleSection {
     border-bottom: 1vw solid rgba(255, 255, 255, 0.582);
     padding-bottom: 1vw;
-    margin-bottom: 2vw;
+    margin-bottom: 4vw;
     font-size: 4vw;
   }
 }
@@ -96,8 +96,8 @@ a {
     padding: 0 10vw;
   }
   .titleSection {
-    padding-bottom: 0.3vw;
-    margin-bottom: 2vw;
+    padding-bottom: 0.6vw;
+    margin-bottom: 3vw;
     font-size: 2.5vw;
   }
 }

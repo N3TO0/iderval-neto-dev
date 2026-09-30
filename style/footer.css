@@ -14,13 +14,12 @@
 
 @media (min-width: 500px) {
   .footer-primary {
-    width: 80%;
+    width: 100%;
     height: 6vw;
     background-color: var(--text-secondary-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
     p {
       font-weight: 200;
       font-size: 1.8vw;
