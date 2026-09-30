@@ -1,4 +1,5 @@
 #about {
+  background-image: var(--secondary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,6 +116,7 @@
 @media (min-width: 500px) {
   #about {
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -185,6 +187,7 @@
 
 @media (min-width: 1000px) {
   #about {
+    background-image: none;
     display: flex;
     justify-content: center;
     align-items: center;
