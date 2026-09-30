@@ -4,8 +4,13 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  height: fit-content;
+  padding: 10vw 5vw;
   .titleSection {
     margin-bottom: 6vw;
+  }
+  .tech-1 {
+    border-radius: 20vw;
   }
 }
 
@@ -36,10 +41,10 @@
       font-weight: 600;
     }
     p {
-      font-size: 4vw;
+      font-size: 3.5vw;
       text-align: center;
       font-weight: 200;
-      line-height: 5vw;
+      line-height: 4vw;
     }
     strong {
       font-weight: 500;
@@ -116,10 +121,12 @@
 @media (min-width: 500px) {
   #about {
     display: flex;
-    height: 100vh;
+    height: fit-content;
+    padding: 10vw 5vw;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+
     .titleSection {
       margin-bottom: 4vw;
     }
@@ -144,7 +151,7 @@
     header {
       gap: 4vh;
       h3 {
-        font-size: 3vh;
+        font-size: 4.5vh;
       }
       p {
         font-size: 2.5vw;
@@ -192,9 +199,11 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    height: 100vh;
     .titleSection {
       margin-bottom: 0.5vw;
     }
+    padding: 0vw 10vw ;
   }
 
   .container-about {
