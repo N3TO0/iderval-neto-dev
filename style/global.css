@@ -66,12 +66,10 @@ a {
     padding: 0 10vw;
   }
   .titleSection {
-    color: var(--text-primary-color);
-    border-bottom: 0.4vw solid white;
-    padding-bottom: 0.3vw;
+    border-bottom: 1vw solid rgba(255, 255, 255, 0.582);
+    padding-bottom: 1vw;
     margin-bottom: 2vw;
-    font-size: 2.5vw;
-    font-weight: 600;
+    font-size: 4vw;
   }
 }
 
@@ -83,12 +81,10 @@ a {
     padding: 0 10vw;
   }
   .titleSection {
-    color: var(--text-primary-color);
-    border-bottom: 0.4vw solid white;
+    border-bottom: 0.5vw solid rgba(255, 255, 255, 0.582);
     padding-bottom: 0.3vw;
     margin-bottom: 2vw;
     font-size: 2.5vw;
-    font-weight: 600;
   }
 }
 
@@ -100,11 +96,8 @@ a {
     padding: 0 10vw;
   }
   .titleSection {
-    color: var(--text-primary-color);
-    border-bottom: 0.4vw solid white;
     padding-bottom: 0.3vw;
     margin-bottom: 2vw;
     font-size: 2.5vw;
-    font-weight: 600;
   }
 }
