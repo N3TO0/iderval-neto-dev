@@ -116,17 +116,17 @@
       gap: 2.5vw;
     }
     .button-1 {
-    padding: 1vw 1.2vw 3vw 1.2vw;
-    .button-2 {
-      width: 26vw;
-      border-radius: 2vw;
-      padding: 2.2vw 3vw;
-      color: #28156ed8;
-      text-align: center;
-      font-weight: 900;
-      font-size: 3vw;
+      padding: 1vw 1.2vw 3vw 1.2vw;
+      .button-2 {
+        width: 26vw;
+        border-radius: 2vw;
+        padding: 2.2vw 3vw;
+        color: #28156ed8;
+        text-align: center;
+        font-weight: 900;
+        font-size: 3vw;
+      }
     }
-  }
   }
   header {
     ul {
@@ -173,27 +173,28 @@
     }
     nav {
       display: flex;
+      height: 55%;
       ul {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        padding-top: 0vw;
+        gap: 0vw;
         li {
           display: flex;
           justify-content: center;
           align-items: center;
+          height: 20%;
         }
-        height: 100%;
-        display: grid;
-        grid-row: 1fr;
-        grid-column: 1fr;
-        grid-template-rows: 9.5vh 9.5vh 9.5vh 9.5vh 9.5vh;
-        padding-top: 0vw;
-        gap: 0vw;
         .button-1 {
-          border-radius: 10px;
+          border-radius: 14px;
           padding: 0.3vw 0.3vw;
           padding-bottom: 1vw;
           .button-2 {
             width: 8vw;
             border-radius: 10px;
-            padding: 1vw 1vw;
+            padding: 0.7vw 0.7vw;
             color: #28156ed8;
             text-align: center;
             font-weight: 900;
@@ -206,12 +207,12 @@
           }
         }
         .button-1:active {
-          border-radius: 16px;
+          border-radius: 12px;
           padding: 0.3vw 0.3vw;
           padding-bottom: 0.6vw;
           .button-2 {
             width: 7vw;
-            border-radius: 12px;
+            border-radius: 8px;
             padding: 0.6vw 1vw;
             font-size: 1vw;
           }
@@ -221,7 +222,7 @@
   }
 }
 
-@media (min-width: 1487px) {
+@media (min-width: 1430px) {
   button {
     display: none;
   }
