@@ -127,6 +127,7 @@
         height: 4.5vw;
       }
       .img-tech:active {
+        transition: 0.2s;
         width: 4vw;
         height: 4vw;
         margin: 0.25vw;
