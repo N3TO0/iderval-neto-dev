@@ -1,0 +1,141 @@
+#services {
+  height: fit-content;
+  padding-bottom: 10vw;
+}
+
+.container-services {
+  width: 80%;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+}
+.card-services {
+  background-image: var(--secondary-color);
+  border-radius: 16px;
+  height: 80vw;
+  header {
+    height: fit-content;
+    img {
+      width: 100%;
+    }
+  }
+  footer {
+    height: 53%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2vw;
+    padding: 0vw 4vw;
+    p {
+      font-size: 3.8vw;
+      font-weight: 200;
+      line-height: 4vw;
+    }
+    h3 {
+      font-size: 5vw;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  #services {
+    padding-bottom: 10vw;
+  }
+
+  .container-services {
+    width: 70%;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
+  .card-services {
+    background-image: var(--secondary-color);
+    border-radius: 16px;
+    height: fit-content;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+    header {
+      height: fit-content;
+      img {
+        width: 100%;
+      }
+    }
+    footer {
+      height: fit-content;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2.6vw;
+      padding: 2vw 4.5vw;
+      p {
+        font-size: 2.1vw;
+        font-weight: 200;
+        line-height: 2.5vw;
+      }
+      h3 {
+        font-size: 3vw;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #services {
+    height: 100vh;
+    padding-bottom: 0vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-services {
+    width: 100%;
+    height: 54%;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+  }
+  .card-services {
+    background-image: var(--secondary-color);
+    border-radius: 25px;
+    height: fit-content;
+    width: 32%;
+    header {
+      height: fit-content;
+      img {
+        width: 100%;
+      }
+    }
+    footer {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1vw;
+      padding: 1vw 1vw;
+      p {
+        font-size: 1vw;
+        font-weight: 200;
+        line-height: 1.2vw;
+      }
+      h3 {
+        font-size: 1.6vw;
+        font-weight: 600;
+      }
+    }
+  }
+  .card-services:hover {
+    margin-top: 1vw;
+    transition: 0.2s;
+  }
+  .card-service-mid {
+    padding-bottom: 1.2vw;
+  }
+}
