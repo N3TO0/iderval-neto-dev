@@ -12,6 +12,7 @@
 }
 .card-services {
   background-image: var(--secondary-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
   border-radius: 16px;
   height: 80vw;
   header {
@@ -57,7 +58,6 @@
     background-image: var(--secondary-color);
     border-radius: 16px;
     height: fit-content;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
     header {
       height: fit-content;
       img {
