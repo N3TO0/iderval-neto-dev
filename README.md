@@ -2,7 +2,7 @@
 
 >Este é o repositório do meu site pessoal e portfólio de projetos, desenvolvido para apresentar meus <br> serviços, habilidades técnicas e casos de estudo.
 
-🌐 **Acesse o site:** [https://iderval-neto-dev.netlify.app](https://iderval-neto-dev.netlify.app)
+🌐 **Acesse o site:** [https://iderval-neto-dev.vercel.app](https://iderval-neto-dev.vercel.app)
 
 ---
 
