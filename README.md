@@ -55,45 +55,10 @@ Site pessoal e profissional, onde incluindo seções de Portolio descrevendo cad
 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-<!--## 🚀 Como executar o projeto
-
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina:
-
-- Ferramenta: Visual Studio Code
-- Extenção: Live Server
-
-### Passo a passo
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/N3TO0/fo-portfolio-fotografia.git
-    ```
-2.  **Entre na pasta:**
-    ```bash
-    cd fo-portfolio-fotografia
-    ```
-3.  **Execute a aplicação:**
-
-    ```bash
-    Abra o arquivo index.html:
-    ```
-
-    <img width="380" src=".github/assets/execution-1.png" alt="Imagem do arquivo index.html que deve abrir">
-
-    <br>
-
-    ```bash
-    Em caso de usar visual studio code, utilize o Live Server:
-    ```
-
-    <img width="380" src=".github/assets/execution-2.png" alt="Imagem mostrando como abrir o index.html com o live server">
-
 ## 📁 Estrutura de Pastas
 
 ```bash
-fo-portfolio-fotografia/
+iderval-neto-dev/
 ├── .github/
 │   └── assets/             <-- Imagens do README.md
 ├── script/                 <-- Arquivos JS contendo funcionalidades.
@@ -103,8 +68,6 @@ fo-portfolio-fotografia/
 │       └── portfolio/      <-- Imagens do portfolio separada por categoria
 │── style/                  <-- arquivos css com estilizações
 ├── index.html              <-- arquivo html principal e inicial
-├── LICENSE                 <-- Licença do projeto
-├── portfolio.html          <-- pagina html contendo o portfolio e suas categorias
 └── README.md               <-- Documentação do projeto "Onde você esta agora!"
 ```
 
@@ -117,7 +80,7 @@ Uma breve explicação da organização dos arquivos:
 - `script/`: Pasta contendo arquivos js cada arquivo com funcionalidade diferente,<br> funcionalidade de troca de tema, acionamento do menu mobile e filtragem de portfolio.
 
 - `/.github`: Pasta contendo imagens utilizadas no arquivo de documentação do projeto<br>Readme.md
--->
+
 ## ✍️ Autor
 
 <img src=".github/assets/developer.png" width="150px;" alt="Foto do Iderval Neto"/><br>
