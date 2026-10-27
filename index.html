@@ -90,6 +90,16 @@
 
           <li>
             <a
+              title="Seção de Tecnologias"
+              href="#portfolio"
+              class="button-1 navBt"
+            >
+              <div class="button-2 bthome-2">Portfólio</div>
+            </a>
+          </li>
+
+          <li>
+            <a
               title="Entre em Contato Comigo"
               href="https://wa.me/5588981621337?text=Olá!%20Vim%20pelo%20seu%20site.%0AGostaria%20de%20saber%20mais%20sobre%20os%20serviços."
               target="_blank"
@@ -632,12 +642,76 @@
           </article>
         </div>
       </section> -->
+
+      <section id="portfolio">
+        <h2 class="titleSection">Portfólio</h2>
+
+        <div class="container-portfolio"></div>
+      </section>
     </main>
 
     <footer class="footer-primary">
       <p>© 2026 Iderval Neto | Todos os direitos reservados.</p>
     </footer>
 
+    <dialog>
+      <article class="card-modal">
+        <header>
+          <picture>
+            <source
+              class="img-mobile-modal"
+              media="(min-width: 500px)"
+              srcset=""
+            />
+            <img
+              class="img-desktop-modal"
+              src=""
+              alt="imagem do site fo-fotografia."
+            />
+          </picture>
+
+          <button class="button-close">
+            <img src="src/icons/icon-close.png" alt="icone de fechar" />
+          </button>
+        </header>
+
+        <footer>
+          <h3 class="h3Modal"></h3>
+
+          <p class="pModal"></p>
+
+          <div class="content-tecnology-modal"></div>
+
+          <div class="content-button-modal">
+            <a
+              href="#"
+              target="_blank"
+              class="button-project btSite"
+              title="Veja o Projeto em Deploy"
+            >
+              Ver Projeto
+              <img src="src/icons/icon-open.png" alt="icone de expansão" />
+            </a>
+
+            <a
+              href="#"
+              target="_blank"
+              class="button-project btGithubModal"
+              title="Veja o Repositorio do Projeto no GitHub"
+            >
+              Ver GitHub
+              <img
+                src="src/icons/icon-github-desktop.png"
+                alt="icone de expansão"
+              />
+            </a>
+          </div>
+        </footer>
+      </article>
+    </dialog>
+
     <script src="script/script.js"></script>
+    <script src="script/portfolio.js"></script>
+    <script src="script/portfolio_modal.js"></script>
   </body>
 </html>
