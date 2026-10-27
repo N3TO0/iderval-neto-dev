@@ -58,7 +58,7 @@
   dialog {
     width: 100%;
     height: 100%;
-    background-color: rgb(233, 224, 224);
+    background-color: rgba(1, 0, 2, 0.884);
     border: none;
     box-sizing: border-box;
     display: flex;
@@ -66,47 +66,67 @@
     align-items: center;
 
     .card-modal {
-      width: 80%;
-      height: 65%;
-      background-color: black;
-      border-radius: 15px;
+      width: 88%;
+      height: fit-content;
+      background-color: rgba(255, 255, 255, 0.897);
+      border-radius: 4vw;
+      position: absolute;
 
       header picture img {
         width: 100%;
+      }
+      .button-close {
+        position: absolute;
+        top: 4vw;
+        right: 4vw;
+        border-radius: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0.856);
+        img{
+          width: 8vw;
+        }
       }
 
       footer {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        height: 42.5vh;
+        justify-content: center;
+        gap: 6vw;
+        padding: 6vw 0;
+        height: fit-content;
       }
 
       h3 {
         color: #8073af;
         font-family: inter;
         font-weight: 800;
-        font-size: 5vw;
+        font-size: 5.5vw;
         text-align: center;
       }
 
       p {
         color: #8073af;
         font-family: inter;
-        font-weight: 300;
-        font-size: 4vw;
+        font-weight: 350;
+        font-size: 3.8vw;
+        line-height: 4vw;
         text-align: center;
-        padding: 0 9vw;
+        padding: 0 10vw;
       }
 
       .content-tecnology-modal {
         width: 100%;
-        height: 35px;
+        height: 13vw;
         display: flex;
         justify-content: center;
         gap: 4vw;
         img {
           height: 100%;
+          border-radius: 2vw;
         }
       }
 
@@ -128,11 +148,11 @@
           justify-content: center;
           align-items: center;
           gap: 8px;
-          font-size: 2.5vw;
+          font-size: 3.4vw;
 
           img {
-            width: 12px;
-            height: 12px;
+            width: 4vw;
+            height: 4vw;
           }
         }
       }
@@ -182,8 +202,6 @@
       img {
         width: 100%;
       }
-    }
-    dialog {
     }
   }
 }
@@ -237,8 +255,6 @@
       img {
         width: 100%;
       }
-    }
-    dialog {
     }
   }
 }
