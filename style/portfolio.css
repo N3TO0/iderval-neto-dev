@@ -409,7 +409,7 @@ dialog::backdrop {
 
       .content-tecnology-modal {
         height: 7vh;
-        gap: 1.5vw;
+        gap: 1.2vw;
         img {
           border-radius: 10px;
         }
@@ -421,8 +421,8 @@ dialog::backdrop {
 
         .button-project {
           border-radius: 7px;
-          padding: 1.4vh 1.4vw;
-          gap: 1vw;
+          padding: 1.4vh 1vw;
+          gap: 0.5vw;
           font-size: 15px;
           img {
             width: 1.2vw;
