@@ -6,8 +6,7 @@ const modal = select("dialog");
 const modalCloseBT = select(".button-close");
 
 // Botões dos projetos
-// projeto fo-fotografia
-const modalOpenBt = select(".button-project-1");
+const modalOpenBtproject1 = select(".button-project-1");
 
 // Elementos Modal
 let imgMoBileModal = select(".img-mobile-modal");
@@ -53,11 +52,7 @@ modalCloseBT.addEventListener("click", () => {
   modal.close();
 });
 
-// Evento para abrir o modal
-modalOpenBt.addEventListener("click", () => {
-  modal.showModal();
-  modalDescription(modalOpenBt);
-});
-
 // Atruibuição da funcionalidade do modal para abotão
-openModalFunciton(modalOpenBt);
+openModalFunciton(modalOpenBtproject1);
+openModalFunciton(modalOpenBtproject2);
+openModalFunciton(modalOpenBtproject3);

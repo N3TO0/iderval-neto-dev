@@ -34,12 +34,9 @@ function loadProjects() {
               <picture>
                 <source
                   media="(min-width: 1000px)"
-                  srcset="src/img/project-fo-fotografia-desktop.png" />
-                <source
-                  media="(min-width: 500px)"
-                  srcset="src/img/project-fo-fotografia-tablet.png" />
+                  srcset="${project.bannerUrldesktop}" />
                 <img
-                  src="src/img/project-fo-fotografia-mobile.png"
+                  src="${project.bannerUrldesktop}"
                   alt="imagem do site fo-fotografia."
               /></picture>
             </header>
