@@ -6,7 +6,7 @@
 
 ## 💻 Sobre o projeto
 
-Site pessoal e profissional, onde incluindo seções de Portolio descrevendo cada projeto e contendo direcionamento para github e deploy, informações profissionais contendo a minha jornada como desenvolvedor, serviços fornecidos e direcionamento de contato e redes sociais. Construido com Html Css e JavaScript.
+Site pessoal e profissional, contendo seção de *Portfolio* descrevendo cada projeto e contendo direcionamento para github e deploy, seção de *About* contendo informações profissionais contendo a minha jornada como desenvolvedor, seção de *Serviços* contendo serviços fornecidos e direcionamento de contato e redes sociais. Construido com Html Css e JavaScript.
 
 🌐 <strong>Acesse o site:</strong> <a href="https://iderval-neto-dev.vercel.app" target="_blank" rel="noopener noreferrer">https://iderval-neto-dev.vercel.app</a>
 
