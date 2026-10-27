@@ -69,7 +69,7 @@ dialog[open] {
   .card-modal {
     width: 88%;
     height: fit-content;
-    background-color: rgba(255, 255, 255, 0.897);
+    background-color: rgba(255, 255, 255, 0.877);
     border-radius: 4vw;
     position: absolute;
 
@@ -87,6 +87,7 @@ dialog[open] {
       border: none;
       padding: 0;
       background-color: rgba(255, 255, 255, 0.856);
+      cursor: pointer;
       img {
         width: 6.8vw;
       }
@@ -210,7 +211,6 @@ dialog::backdrop {
     }
   }
   dialog[open] {
-
     .card-modal {
       width: 40%;
       border-radius: 2vw;
@@ -317,7 +317,6 @@ dialog::backdrop {
     }
   }
   dialog[open] {
-
     .card-modal {
       width: 32%;
       border-radius: 1.6vw;
@@ -378,7 +377,6 @@ dialog::backdrop {
     height: 100vh;
   }
   dialog[open] {
-
     .card-modal {
       width: 24%;
       border-radius: 1.2vw;
