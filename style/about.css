@@ -5,7 +5,7 @@
   align-items: center;
   box-sizing: border-box;
   height: fit-content;
-  padding: 10vw 5vw;
+  padding: 15vw 5vw;
   .titleSection {
     margin-bottom: 6vw;
   }
@@ -122,7 +122,7 @@
   #about {
     display: flex;
     height: fit-content;
-    padding: 10vw 5vw;
+    padding: 6vw 5vw;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
