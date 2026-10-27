@@ -381,7 +381,7 @@ dialog::backdrop {
   }
   dialog[open] {
     .card-modal {
-      width: 24%;
+      width: 22%;
       border-radius: 1.2vw;
       .button-close {
         top: 0.8vw;
