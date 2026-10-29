@@ -66,8 +66,8 @@ iderval-neto-dev/
 │   ├── icon/               <-- Icones do site
 │   └── img/                <-- Imagens do site
 │       └── portfolio/      <-- Imagens do portfolio separada por categoria
-│── style/                  <-- arquivos css com estilizações
-├── index.html              <-- arquivo html principal e inicial
+│── style/                  <-- Arquivos css com estilizações
+├── index.html              <-- Arquivo html principal e inicial
 └── README.md               <-- Documentação do projeto "Onde você esta agora!"
 ```
 
